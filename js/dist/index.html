@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ppstats test</title>
+  </head>
+  <body>
+    <script src="./ppstats.js"></script>
+    <script>
+        ppstats('http://localhost:9901/', 'appid', function(resp){
+            console.log(resp);
+        });
+    </script>
+  </body>
+</html>
