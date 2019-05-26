@@ -8,7 +8,10 @@ module.exports = {
     },
     mode: 'production',
     devServer: {
-        contentBase: './dist'
+        contentBase: path.resolve(__dirname, 'dist'),
+        //proxy: {
+        //    '/jstats': 'http://localhost:9999',
+        //}
     },
     module: {
         rules: [
