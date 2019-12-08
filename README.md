@@ -2,6 +2,8 @@
 
 简单的页面访问统计功能，基于openresty的web框架 vanilla开发。
 
+参考 http://blog.vikazhou.com/2018/03/05/create-ppstats-with-vanilla/
+
 ## 关键文件列表
 
 * application/controllers/jstats.lua
