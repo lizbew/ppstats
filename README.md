@@ -4,6 +4,16 @@
 
 参考 http://blog.vikazhou.com/2018/03/05/create-ppstats-with-vanilla/
 
+* 数据库表
+
+![数据库表](images/ppstats-charts-tables.png)
+
+
+* 访问流程
+
+![访问流程](images/ppstats-charts-flow.png)
+
+
 ## 关键文件列表
 
 * application/controllers/jstats.lua
